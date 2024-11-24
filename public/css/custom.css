@@ -1,0 +1,46 @@
+/* custom.css */
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+    font-weight: 500;
+}
+
+.card-body h6 {
+    font-size: 0.9rem;
+}
+
+.card-body p {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+}
+
+
+.promotion-section {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+button.btn {
+    padding-top: 8px;
+}

@@ -1,0 +1,108 @@
+/* CSS tổng thể cho navbar */
+*,
+*::before,
+*::after {
+    box-sizing: revert;
+}
+
+
+
+
+
+/* Logo và tên trang */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+/* Thanh tìm kiếm */
+.form-inline input[type="search"] {
+    padding: 1px 15px;
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+}
+.form-inline button {
+    background-color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 15px 20px 0;
+    cursor: pointer;
+}
+
+/* Đăng nhập, giỏ hàng, và vị trí */
+.nav-link {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.location-container {
+    background-color: #FFEB3B;
+    color: black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Thanh danh mục chính */
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 5px;
+}
+
+/* Hiệu ứng hover */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.btn-admin {
+    color: white;
+    background-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.btn-admin:hover {
+    background-color: #0056b3;
+}
+
+
+
+button.btn {
+    padding-top: 6px;
+}
+
+
+.login1 {
+    width: 130px;
+}
+
+
+
+
+.banner-ad img {
+    border-radius: 20px; 
+    width: 100%; 
+    max-height: 300px; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+}
